@@ -4,15 +4,13 @@ package com.example.helloword;
 /**
  * Created by ronen on 4/19/14.
  */
-public class HelloWorld {
-
-
+public class SortObjects {
 
     private int numColors = 3;
     private int[] pointers;
 
 
-    public HelloWorld() {
+    public SortObjects() {
 
         pointers = new int[numColors];
         for (int i = 0; i < numColors; i++) {
@@ -20,7 +18,7 @@ public class HelloWorld {
         }
     }
 
-    public HelloWorld(int varNumColors) {
+    public SortObjects(int varNumColors) {
         numColors = varNumColors;
         pointers = new int[numColors];
         for (int i = 0; i < numColors; i++) {
@@ -28,11 +26,6 @@ public class HelloWorld {
         }
     }
 
-
-    public static void main(String[] args) {
-
-
-    }
 
     public Bicycle[] sortObjects(Bicycle[] list) {
 
