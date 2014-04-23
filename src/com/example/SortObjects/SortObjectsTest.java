@@ -1,6 +1,4 @@
-package com.example.helloword;
-
-import java.util.Collections;
+package com.example.SortObjects;
 
 /**
  * Created by ronen on 4/22/14.
